@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+     --bg-color: background: rgb(208,32,189);
+     background: linear-gradient(165deg, rgba(208,32,189,1) 0%, rgba(213,162,199,0.8267682072829132) 41%, rgba(40,85,161,1) 94%);;
+     --color-tex: #cad2bd;
+     --box-shadow: 10px 10px 14px #641717,
+     -10px -10px 14px #be2d2d;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: var(--bg-color);
+
+}
+
+.container{
+    width: 30%;
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 13px;
+    background: rgb(208,32,189);
+    background: radial-gradient(circle, rgba(208,32,189,1) 0%, rgba(213,162,199,0.8267682072829132) 41%, rgba(40,85,161,1) 94%);
+    box-shadow:  15px 15px 22px #223070,
+             -15px -15px 22px #4e6cfe;
+    border-radius: 5px;
+    text-align: center;
+    color: var(--color-tex);
+    padding: 2rem;
+    background-color: var(--bg-color);
+
+}
+
+.container h2{
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 4px;
+}
+
+.color-hex,
+.btns * {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 100px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+    background-color: var(--bg-color);
+    
+    border-radius: 3px;
+    padding: 8px;
+    margin: 1px;
+}
+
+.color-hex{
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin: 20px;
+}
+
+.btns{
+    color: var(--color-tex);
+    cursor: pointer;
+    outline: none;
+
+}
+
